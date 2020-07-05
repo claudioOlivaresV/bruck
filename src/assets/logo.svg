@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1280" height="514" viewBox="0 0 1280 514">
+  <defs>
+    <clipPath id="clip-Web_1280_2">
+      <rect width="1280" height="514"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1280_2" data-name="Web 1280 – 2" clip-path="url(#clip-Web_1280_2)">
+    <rect width="1280" height="514" fill="rgba(255,255,255,0)"/>
+    <g id="Componente_1_1" data-name="Componente 1 – 1" transform="translate(37.5 99)">
+      <path id="Trazado_1" data-name="Trazado 1" d="M135,0,270,220H0Z" transform="translate(220 30) rotate(90)" fill="#49006e"/>
+      <path id="Trazado_2" data-name="Trazado 2" d="M120,0,240,190H0Z" transform="translate(271 45) rotate(90)" fill="#c04bfa"/>
+      <text id="Bruck" transform="translate(321.5)" fill="#fff" font-size="300" font-family="Megrim"><tspan x="0" y="264">Bruck</tspan></text>
+    </g>
+  </g>
+</svg>
