@@ -1,7 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
-.navbar {
+.navbar, footer {
     background-color:#7400AD;
+    
 }
+
 
 a {
     color: white;
@@ -11,4 +13,6 @@ a {
     margin-top: 106px;
 }
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body, h1, h2 { margin: 0; 
+    font-family: 'Open Sans', sans-serif !important;
+ }
