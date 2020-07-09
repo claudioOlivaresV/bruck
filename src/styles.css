@@ -1,18 +1,66 @@
 /* You can add global styles to this file, and also import other style files */
-.navbar, footer {
+.navbar {
+    background-color: #7400AD}
+ footer {
     background-color:#7400AD;
     
 }
+/* .jumbotron  button {
+    background-color:#7400AD !important;
+    border-color:#7400AD !important;
+    
+} */
+.mat-raised-button {
+    outline: none !important;
+}
+.mat-raised-button{
+    background-color: #7400AD !important;
+}
+.mat-card {
+    min-height: 460px !important;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.jumbotron {
+    background-color:#fff;
+
+}
 
 
-a {
+.navbar a {
     color: white;
 }
-#carouselExampleControls {
+.navbar a:hover {
+    color: #C04BFA;
+}
+#carouselExampleControls, .jumbotron {
 
     margin-top: 106px;
 }
 html, body { height: 100%; }
-body, h1, h2 { margin: 0; 
+body, h1, h2, h4 { margin: 0; 
     font-family: 'Open Sans', sans-serif !important;
  }
+ body {
+     background-color: #F9F6ED;
+ }
+h1 {
+    font-size: 2.5rem !important;
+    line-height: 1.2 !important;
+    color: #7400AD;
+    font-weight: bold;
+}
+.example-header-image i {
+    color: #49006E;
+
+}
+h2 {
+    font-size: 2rem !important;
+    color: #49006E;
+}
+h4 {
+    font-size: 1.5rem !important;
+}
+.mat-typography {
+    font-size: 1em !important;
+}
