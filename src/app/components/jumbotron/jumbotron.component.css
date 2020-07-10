@@ -1,0 +1,50 @@
+.jumbotron {
+    background-color:#fff;
+    margin-top: 106px;
+
+}
+.mat-raised-button{
+    background-color: var(--main-color) !important;
+    
+   
+}
+button {
+    transition: .2s ease-out;
+
+}
+button:active {
+    transform: scale(.9);
+}
+button:hover {
+    transform: scale(1.1);
+}
+.mat-raised-button :hover{
+  
+}
+h1 {
+    color: var(--main-color);
+    
+}
+.container {
+    animation: animationIn .8s forwards;
+
+}
+
+@keyframes animationIn {
+    0%{
+        transform: translateY(-3000px);
+
+    }
+    60%{
+        transform: translateY(25px);
+    }
+    75%{
+        transform: translateY(-10px);
+
+    }
+    90%{
+        transform: translateY(5px);
+
+    }
+    
+}

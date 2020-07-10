@@ -10,13 +10,21 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
 import { SpinnerComponent } from './components/spinner/spinner.component';
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { JumbotronComponent } from './components/jumbotron/jumbotron.component';
+import { PilaresComponent } from './components/pilares/pilares.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    SpinnerComponent
+    SpinnerComponent,
+    HeaderComponent,
+    FooterComponent,
+    JumbotronComponent,
+    PilaresComponent
   ],
   imports: [
     BrowserModule,

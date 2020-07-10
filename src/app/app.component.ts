@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppComponent implements OnInit {
   title = 'bruk';
-  showSpinner = true;
+  showSpinner = false;
   constructor() { }
 
   ngOnInit(): void {
