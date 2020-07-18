@@ -18,9 +18,7 @@ button:active {
 button:hover {
     transform: scale(1.1);
 }
-.mat-raised-button :hover{
-  
-}
+
 h1 {
     color: var(--main-color);
     

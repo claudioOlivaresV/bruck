@@ -7,3 +7,7 @@
 .navbar a:hover {
     color: var(--main-color-hover);
 }
+
+.active a {
+    color: var(--main-color-hover);
+ }
