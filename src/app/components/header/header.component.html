@@ -1,9 +1,9 @@
 <nav class="navbar navbar-expand-md navbar fixed-top shadow-sm">
     <div class="container">
 
-      <a class="navbar-brand" href="#"><img src="https://i.ibb.co/wN4WcX6/Web-1280-2.png" alt="logo" width="200"></a>
+      <a class="navbar-brand" routerLink="home" class="grow" (click)="noShow()"><img src="https://i.ibb.co/wN4WcX6/Web-1280-2.png" alt="logo" width="200"></a>
       <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarCollapse"
-        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        aria-controls="navbarCollapse" aria-expanded="true" aria-label="Toggle navigation">
     
         <span class="material-icons text-white-50 ">
           menu
@@ -11,14 +11,14 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav ml-auto ">
-          <li class="nav-item " routerLinkActive="active">
-            <a class="nav-link"   routerLink="home"><em class="fas fa-home"></em> Home </a>
+          <li class="nav-item grow" routerLinkActive="active">
+            <a class="nav-link"   routerLink="home" (click)="noShow()"><em class="fas fa-home"></em> Home </a>
           </li>
           <!-- <li class="nav-item">
             <a class="nav-link" href="#"><em class="fas fa-briefcase"></em> Portafolio</a>
           </li> -->
-          <li class="nav-item" routerLinkActive="active">
-            <a class="nav-link "  routerLink="contact"><em class="fas fa-envelope"></em> Contacto</a>
+          <li class="nav-item grow" routerLinkActive="active">
+            <a class="nav-link "  routerLink="contact" (click)="noShow()"><em class="fas fa-envelope"></em> Contacto</a>
           </li>
         </ul>
     

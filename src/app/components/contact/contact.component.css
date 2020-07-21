@@ -1,3 +1,4 @@
+
 .container {
     
     margin-top: 160px;
@@ -24,4 +25,12 @@ h2 {
   
   .whatsapp-icon {
     margin-top:13px;
+  }
+  img {
+    animation: scale 20000ms ease-in-out forwards;
+  }
+  @keyframes scale {
+    to {
+      transform: scale(1.05);
+    }
   }

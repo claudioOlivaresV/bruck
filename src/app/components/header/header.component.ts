@@ -8,8 +8,11 @@ import { Router } from '@angular/router';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor(public router: Router) { }
+  constructor() { }
 
   ngOnInit(): void {
+  }
+  noShow(){
+    document.getElementById('navbarCollapse').classList.remove('show');
   }
 }

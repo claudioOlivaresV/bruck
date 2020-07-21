@@ -16,6 +16,7 @@ import { JumbotronComponent } from './components/jumbotron/jumbotron.component';
 import { PilaresComponent } from './components/pilares/pilares.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { MainComponent } from './components/main/main.component';
+import { SolutionsComponent } from './components/solutions/solutions.component';
 
 
 
@@ -28,7 +29,8 @@ import { MainComponent } from './components/main/main.component';
     JumbotronComponent,
     PilaresComponent,
     ContactComponent,
-    MainComponent
+    MainComponent,
+    SolutionsComponent
   ],
   imports: [
     BrowserModule,
