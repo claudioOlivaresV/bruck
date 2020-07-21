@@ -2,12 +2,14 @@
     background-color: var(--main-color)
 }
 .navbar a {
-    color: white;
+    color: var(--main-color-hover);
+
 }
 .navbar a:hover {
-    color: var(--main-color-hover);
+    color: white;
 }
 
 .active a {
-    color: var(--main-color-hover);
- }
+
+    color: white;
+}

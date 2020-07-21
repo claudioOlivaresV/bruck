@@ -1,0 +1,22 @@
+h2 {
+    color: var(--main-color-dark);
+}
+.angular{
+    color: #b52e31;
+
+}
+.react{ 
+    color: #00d8ff;
+}
+.vue{
+    color: #42b883;
+}
+.node {
+    color: #44883e;
+}
+.php {
+    color: #8892be;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
